@@ -1,0 +1,7 @@
+Figure: <%= @figure.name %>
+Titles:
+<ul>
+  <%@figure.titles.each do |t|%>
+     <li><%=t.name %></li>
+  <%end%>
+</ul>
